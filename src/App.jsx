@@ -3,7 +3,7 @@ import "./App.css";
 import Square from "./components/Square/Square";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:3001");
+const socket = io("https://0ed9-41-44-210-95.ngrok-free.app");
 
 function App() {
   const [gameState, setGameState] = useState({
